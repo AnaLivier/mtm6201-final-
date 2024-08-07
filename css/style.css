@@ -1,0 +1,85 @@
+:root {
+    --bs-primary: #505E7E;
+    --bs-secondary: #F5C751;
+}
+
+#hero {
+    background-image: url(../images/bannerhome.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.hero-about {
+    background-image: url(../images/pexels-kyleloftusstudios-3379934.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.hero-contact {
+    background-image: url(../images/pexels-fonok-403495.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+.logo {
+    letter-spacing: 0.4em;
+}
+
+.welcome {
+    font-family: "DM Serif Display", serif;
+}
+
+.core {
+    letter-spacing: 0.4em;
+}
+
+.pics {
+    width: 128px;
+    height: 307px;
+    object-fit: cover;
+}
+
+.pic {
+    width: 548px;
+    height: 307px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.btncon {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1100px) {
+   
+    .pics {
+        width: 600px;
+        height: 400px;
+        object-fit: cover;
+    }
+    
+    .pic {
+        width: 800px;
+        height: 307px;
+        object-fit: cover;
+        border-radius: 50px;
+    }
+
+    .navbar-toggler-white {
+        border-color: white;
+        border-width: 2px;
+    }
+
+    
+}
+
